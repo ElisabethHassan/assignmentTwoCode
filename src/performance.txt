@@ -1,0 +1,67 @@
+/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=64191:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/elisabethhassan/Documents/IntelliJProjects/assignmentTwoCode/out/production/assignmentTwoCode:/Users/elisabethhassan/Downloads/jfreechart-demo-1.5.2-jar-with-dependencies.jar Performance
+
+Sorting algorithm - Bubble Sort
+Sorted 100 elements in 0.25ms (avg)
+Sorted 500 elements in 0.5ms (avg)
+Sorted 1000 elements in 1.0ms (avg)
+Sorted 2000 elements in 3.0ms (avg)
+Sorted 5000 elements in 16.2ms (avg)
+Sorted 10000 elements in 91.65ms (avg)
+Sorted 20000 elements in 529.85ms (avg)
+Sorted 75000 elements in 9995.9ms (avg)
+Sorted 150000 elements in 43162.7ms (avg)
+
+Insertion Sort
+Sorted 100 elements in 0.85ms (avg)
+Sorted 500 elements in 1.1ms (avg)
+Sorted 1000 elements in 1.1ms (avg)
+Sorted 2000 elements in 2.15ms (avg)
+Sorted 5000 elements in 5.1ms (avg)
+Sorted 10000 elements in 20.65ms (avg)
+Sorted 20000 elements in 84.35ms (avg)
+Sorted 75000 elements in 1262.35ms (avg)
+Sorted 150000 elements in 5015.5ms (avg)
+
+Quick Sort
+Sorted 100 elements in 0.5ms (avg)
+Sorted 500 elements in 0.5ms (avg)
+Sorted 1000 elements in 0.7ms (avg)
+Sorted 2000 elements in 0.3ms (avg)
+Sorted 5000 elements in 0.6ms (avg)
+Sorted 10000 elements in 1.2ms (avg)
+Sorted 20000 elements in 1.6ms (avg)
+Sorted 75000 elements in 7.15ms (avg)
+Sorted 150000 elements in 15.05ms (avg)
+
+Selection Sort
+Sorted 100 elements in 0.5ms (avg)
+Sorted 500 elements in 0.5ms (avg)
+Sorted 1000 elements in 0.75ms (avg)
+Sorted 2000 elements in 2.95ms (avg)
+Sorted 5000 elements in 18.05ms (avg)
+Sorted 10000 elements in 71.5ms (avg)
+Sorted 20000 elements in 284.6ms (avg)
+Sorted 75000 elements in 4038.45ms (avg)
+Sorted 150000 elements in 16373.0ms (avg)
+
+Shell Sort
+Sorted 100 elements in 0.1ms (avg)
+Sorted 500 elements in 0.35ms (avg)
+Sorted 1000 elements in 0.15ms (avg)
+Sorted 2000 elements in 0.5ms (avg)
+Sorted 5000 elements in 0.6ms (avg)
+Sorted 10000 elements in 1.3ms (avg)
+Sorted 20000 elements in 3.0ms (avg)
+Sorted 75000 elements in 13.1ms (avg)
+Sorted 150000 elements in 28.75ms (avg)
+
+Merge Sort
+Sorted 100 elements in 0.2ms (avg)
+Sorted 500 elements in 0.2ms (avg)
+Sorted 1000 elements in 0.85ms (avg)
+Sorted 2000 elements in 1.4ms (avg)
+Sorted 5000 elements in 3.1ms (avg)
+Sorted 10000 elements in 2.15ms (avg)
+Sorted 20000 elements in 3.7ms (avg)
+Sorted 75000 elements in 13.3ms (avg)
+Sorted 150000 elements in 29.2ms (avg)

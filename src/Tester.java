@@ -28,7 +28,7 @@ public class Tester {
             total += singleTest(size);
         }
 
-        System.out.println("Sorted " + size + "elements in " + total / iterations + "ms (avg)");
+        System.out.println("Sorted " + size + " elements in " + total / iterations + "ms (avg)");
     }
 
 }

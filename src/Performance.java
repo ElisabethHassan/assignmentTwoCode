@@ -15,6 +15,8 @@ public class Performance {
         tBS.test(20,75000);
         tBS.test(20,150000);
 
+        System.out.println();
+        System.out.println("Sorting algorithm - Insertion Sort");
         SortingAlgorithm is = new InsertionSort();
         Tester tIS = new Tester(is);
         tIS.test(20,100);
@@ -26,8 +28,9 @@ public class Performance {
         tIS.test(20,20000);
         tIS.test(20,75000);
         tIS.test(20,150000);
-        
-        
+
+        System.out.println();
+        System.out.println("Sorting algorithm - Quick Sort");
         SortingAlgorithm qs = new QuickSort();
         Tester tQS = new Tester(qs);
         tQS.test(20,100);
@@ -39,8 +42,10 @@ public class Performance {
         tQS.test(20,20000);
         tQS.test(20,75000);
         tQS.test(20,150000);
-        
 
+
+        System.out.println();
+        System.out.println("Sorting algorithm - Selection Sort");
         SortingAlgorithm selS = new SelectionSort();
         Tester tSS = new Tester(selS);
         tSS.test(20,100);
@@ -53,6 +58,8 @@ public class Performance {
         tSS.test(20,75000);
         tSS.test(20,150000);
 
+        System.out.println();
+        System.out.println("Sorting algorithm - Shell Sort");
         SortingAlgorithm shellS = new ShellSort();
         Tester tShellS = new Tester(shellS);
         tShellS.test(20,100);
@@ -64,7 +71,9 @@ public class Performance {
         tShellS.test(20,20000);
         tShellS.test(20,75000);
         tShellS.test(20,150000);
-        
+
+        System.out.println();
+        System.out.println("Sorting algorithm - Merge Sort");
         SortingAlgorithm ms = new MergeSort();
         Tester tMS = new Tester(ms);
         tMS.test(20,100);
