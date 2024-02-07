@@ -23,7 +23,7 @@ public class QuickSort implements SortingAlgorithm{
 
     public int partition(int[] arr, int low, int high)
     {
-        // Choosing the pivot
+        // Choosing the pivot --> the last index
         int pivot = arr[high];
 
         // Index of smaller element and indicates
